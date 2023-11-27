@@ -1,0 +1,162 @@
+/* tekst en fonts */
+
+@font-face {
+  font-family: spotify-headers;
+  src: url(font/Circular/CircularStd-Bold.otf);
+}
+
+@font-face {
+  font-family: spotify-tekst;
+  src: url(font/Circular/CircularStd-Bold.otf);
+}
+
+body {
+  background-color: #212121;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+a,
+ol {
+  font-family: spotify-headers;
+}
+
+p {
+  font-family: spotify-tekst;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 1em;
+}
+
+p,
+img {
+  margin-left: 1.3em;
+}
+
+/* navbar */
+
+nav ul {
+  display: flex;
+  background: #0e692e;
+  padding: 1em;
+  margin: 0;
+}
+
+nav a {
+  color: #d6e2da;
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav ul :hover {
+  transform: scale(1.1);
+}
+
+/* teksten */
+
+h1,
+h2,
+h3 {
+  color: #1db954;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding-top: 1em;
+  padding-bottom: 0.8em;
+}
+
+.artiest-2 {
+  font-size: 1.4rem;
+  padding-top: 0.1em;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  /* color: #d6e2da; */
+  max-width: 50vw;
+  line-height: 1.6em;
+  color: #c7ccc8;
+}
+
+.rij-titel {
+  padding-right: 1em;
+}
+
+/* lijsten */
+
+ol {
+  color: #1db954;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0.1em;
+}
+
+.albums-rij {
+  display: flex;
+}
+
+/* afbeeldingen */
+
+.playlist-img {
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-bottom: 0.2em;
+}
+
+.artiest-img {
+  max-width: 15vw;
+  max-height: 40vh;
+}
+
+/* links */
+.link-playlist {
+  color: #1db954;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 2em;
+  padding-left: 1em;
+}
+
+/* embeds */
+.album-embed {
+  border: none;
+  width: 30vw;
+  height: 40vh;
+  padding: 1.2em;
+}
+
+.album-embed-2 {
+  border: none;
+  width: 23vw;
+  height: 40vh;
+  padding-bottom: 1.2em;
+  padding-right: 9em;
+  margin-top: 3em;
+}
+
+.nummer-embed {
+  padding: 2em;
+  border: none;
+  width: 23vw;
+  height: 20vh;
+}
+
+/* */

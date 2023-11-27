@@ -1,0 +1,6 @@
+index.html
+afbeelding: spotify.com
+
+artiesten.html
+afbeeldingen, embeddings: spotify.com
+informatie + afbeeldingen: https://en.wikipedia.org/wiki/MF_Doom + https://en.wikipedia.org/wiki/Joey_Badass
